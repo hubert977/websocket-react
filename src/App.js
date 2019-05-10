@@ -8,10 +8,8 @@ class App extends React.Component {
       weight: 0,
       ip: "ws://10.10.2.206:7000/status"
     };
-    //this.connectionMass = new WebSocket(this.state.ip);
     this.setAdress = this.setAdress.bind(this);
     this.opennewwebsocket = this.opennewwebsocket.bind(this);
-   // this.opennewwebsocket();
   }
   componentDidMount() {
     this.opennewwebsocket();
