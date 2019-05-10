@@ -1,0 +1,70 @@
+@import "./rwd/rwd.scss";
+.header
+{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.weight
+{
+  width: 400px;
+  height: 200px;
+  border: 1px solid grey;
+  padding-top: 80px;
+  padding-left: 10%;
+  font-size: 30px;
+  color: grey;
+}
+.tare
+{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.zeroing
+{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.tare-p
+{
+  padding-left: 35%;
+  padding-top: 30px;
+  font-size: 27px;
+}
+.zeroing-p
+{
+  padding-left: 35%;
+  padding-top: 30px;
+  font-size: 27px;
+}
+.footer
+{
+  text-align: center;
+  color: white;
+  margin-top: 25%;
+}
+.footer_text
+{
+  padding-left: 2%;
+}
+.adress
+{
+  margin-right: 5px;
+}
+.ip
+{
+  color: grey;
+  font-size: 15px;
+  padding-left: 5px;
+  width: 200px;
+  height: 40px;
+}
+header 
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
